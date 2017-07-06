@@ -23,7 +23,7 @@ By default this library uses python-can_ for the actual communication.
 See its documentation for specifics on how to configure your specific interface.
 
 Call the :meth:`~canopen.Network.connect` method to start the communication, optionally providing
-arguments passed to a the :class:`can.BusABC` constructor::
+arguments passed to the :class:`can.BusABC` constructor::
 
     network.connect(channel='can0', bustype='socketcan')
     # network.connect(bustype='kvaser', channel=0, bitrate=250000)
